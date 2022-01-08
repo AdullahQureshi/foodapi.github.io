@@ -1,0 +1,85 @@
+input{
+    height: 25px;
+    width: 90%;
+    border: 2px solid rgb(233, 134, 134);
+    border-radius: 5px;
+}
+.inp{
+    height: 80vh;
+    width: 25%;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+#submit{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 110, 110);
+    background: rgb(16, 92, 128);
+    color: wheat;
+    font-family: cursive;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: rgb(51, 51, 51);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.login{
+    font-size: 600;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 15%;
+    color: wheat;
+}
+
+.login-section{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    height: 30vh;
+    width: 30%;
+    border: sienna;
+    border-radius: 20px;
+    background: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#login-form{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid rgb(243, 110, 110);
+    background: rgb(16, 92, 128);
+    color: wheat;
+    font-family: cursive;
+}
+
+
+.email-login{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid rgb(251, 144, 162);
+}
